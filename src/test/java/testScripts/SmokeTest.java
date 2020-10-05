@@ -15,5 +15,11 @@ public class SmokeTest extends Base{
 		indexpage.goto_IndexPage();
 		indexpage.enterUserName();
 	}
+	
+	@Test
+	public void testB() {
+		IndexPage indexpage = new IndexPage();
+		indexpage.goto_IndexPage();
+	}
 
 }
